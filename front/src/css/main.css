@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+body {
+  background-color: #55e6c1;
+  font-family: "Dongle", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  background-color: #b33771;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 15%;
+  text-align: center;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+.entries-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 4rem;
+}
+
+.entries-list li {
+  margin: 1% 1%;
+  width: 20%;
+  border-radius: 5%;
+  background-color: #1b9cfc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.entries-list li:hover {
+  background-color: #3b3b98;
+  color: #bdc581;
+}
+
+.entry-display {
+  background-color: #fd7272;
+  color: #eab543;
+  border-radius: 15%;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+}
+
+.entry-display h1 {
+  font-size: 5rem;
+  margin-bottom: 1%;
+  border-bottom: cadetblue 3px dotted;
+}
+
+.entry-display .pso {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.entry-display .def {
+  font-size: 2rem;
+}
+
+input {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5%;
+  border: none;
+}
+
+input:focus {
+  background-color: #58b19f;
+}
+
+input:hover {
+  background-color: #9aecdb;
+}
+
+select {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5%;
+  border: none;
+}
+
+select:hover {
+  background-color: #d6a2e8;
+}
+
+select:focus {
+  background-color: #fd7272;
+}
+/*# sourceMappingURL=main.css.map */
