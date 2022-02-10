@@ -6,7 +6,7 @@
 
 ## word searched wit pos
 
-![alt text]([readme_assets\searched word with seleceted pos.png'](https://github.com/ArnonAsquira/aws-dictionary-front/blob/main/readme_assets/searched%20word%20with%20seleceted%20pos.png))
+![alt text](https://github.com/ArnonAsquira/aws-dictionary-front/blob/main/readme_assets/searched%20word%20with%20seleceted%20pos.png)
 
 ## single word display
 
